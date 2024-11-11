@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    /* background-color:  rgb(133, 72, 39); */
+    /* color:darkgoldenrod; */
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#0C0F0A;
+}
+
+h1{
+  margin:20px ;
+  margin-bottom:10%;
+  color:whitesmoke;
+}
+
+h3{
+  margin: 5%;
+  white-space: nowrap;
+  color:darkgoldenrod;
+}
+
+button{
+  padding: 12px 32px;
+    /* background: #0ef; */
+    background-color: rgb(234, 55, 136);
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+    border:none;
+    outline: none;
+    border-radius: 6px;
+    /* box-shadow: 0 0 10px #0ef; */
+    box-shadow:  rgb(234, 55, 136);;
+    font-size: 16px;
+    /* color: #333; */
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+ }
+
+ form button:hover{
+    box-shadow: none;
+ }
+
+    /* height: 50px;
+    width: 150px;
+    border: none;
+    color: #111;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    /* font-size: 20px; */
+     */
+
+
+/* #char{
+  /* background-color: #71cc8d; */
+/* }
+#word{ */
+/* background-color:#64bab8; */
+
+ */
+
+.textcontain{
+    height: 200px;
+    width: 500px;
+    border-radius: 30px;
+    background-color:#FBE7C6;
+    color:#111;
+    margin:10px;
+}
+
+.textcontain #textarea{
+      font-size: 15px;
+     color: #111;
+     line-height: 2.5;
+     height: 400px;
+     width:500px ;
+     border: none;
+     text-align:center;
+     justify-content: start;
+     align-items: center;
+     border-radius: 30px;
+     white-space: normal;
+     padding-top:25px;
+     resize:none; 
+     text-transform :uppercase;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin: 40px;
+    }
+
+
+    #textarea:hover{
+    border: 2px solid #157f7b;
+    box-shadow: 10px 10px 0;
+    transition: all ease 0.5s;
+    }
